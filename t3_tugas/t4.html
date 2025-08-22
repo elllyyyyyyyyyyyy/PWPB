@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<style>
+    div{
+        margin: 5px;
+    }
+
+    fieldset{
+        background-color: #f7dae7;
+        border-style: none;
+        border-radius: 15px;
+        color: #ffffff;
+    }
+
+    body{
+        background-color: #a55166;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-style: oblique;
+    }
+
+    legend{
+        background-color: #f9cbd6;
+        border-radius: 15px;
+        font-size: larger;
+    }
+
+    input, select, option, ::placeholder{
+        color: #a55166;
+        border-style: none;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-style: oblique;
+    }
+
+
+</style>
+<body>
+    <fieldset>
+        <legend>Universitas Hebat</legend>
+        <form>
+            <div class="nama">
+                Nama 
+                <br><input type="text"></input>
+            </div>
+            <div class="as">
+                Asal Sekolah
+                <br><input type="text"></input>
+            </div>
+            <div class="">
+                <input type="radio" id="box">Pria</input><br><input type="radio" id="box">Wanita</input>
+            </div>
+            <div class="agama">
+                Agama <br>
+                <select name="Agama">
+                    <option value="">Islam</option>
+                    <option value="">Kristen</option>
+                    <option value="">Katholik</option>
+                    <option value="">Hindu</option>
+                    <option value="">Buddha</option>
+                </select>
+            </div>
+            <div class="nilai">
+                Nilai <br>
+                <input type="text" placeholder="Matematika"></input>
+                <input type="text" placeholder="Bahasa Indonesia"></input>
+                <input type="text" placeholder="Bahasa Inggris"></input>
+            </div>
+            <div class="pil">
+                Fakultas Pilihan <br>
+                <select name="Fakultas" id="">
+                    <option value="">Fakultas Ilmu Pendidikan</option>
+                    <option value="">Fakultas Pendidikan Bahasa dan Seni</option>
+                    <option value="">Fakultas Pendidikan Olahraga dan Kesehatan</option>
+                    <option value="">Fakultas Pendidikan Teknik dan kejuruan</option>
+                    <option value="">Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam</option>
+                    <option value="">Fakultas Pendidikan Ilmu Pengetahuan Sosial</option>
+                    <option value="">Fakultas Pendidikan Ekonomi dan Bisnis</option>
+                </select>
+            </div>
+            <div>
+                Anda menyetujui persyaratan yang berlaku <br>
+                <input type="checkbox">Setuju</input>
+            </div>
+            <div>
+                <input type="submit"> <input type="reset" name="" id="">
+            </div>
+        </form>
+    </fieldset>
+</body>
+</html>

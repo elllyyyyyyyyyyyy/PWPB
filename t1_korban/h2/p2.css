@@ -1,0 +1,67 @@
+:root{
+    --header-height: 3.5rem;
+    --z-tooltip: 10;
+    --z-fixed: 100;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(218, 152, 152);
+    box-shadow: 0 2px 16px;
+    z-index: var(--z-fixed);
+
+}
+
+.nav{
+    height: var(--header-height);
+}
+
+.navlogo,
+.navburger,
+.navclose{
+    color: white;
+}
+
+.navdata{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlogo{
+    display: inline-flex;
+    align-items: center;
+    column-gap: .25rem;
+    font-weight: bold;
+}
+
+.navlogo i{
+    font-weight: initial;
+    font-size: 1.25rem;
+}
+
+.navtoggle{
+    position: relative;
+    width: 32px;
+    height: 32px;
+}
+
+.navburger,
+.navclose{
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    inset: 0;
+    margin: auto;
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: opacity .1s, transform .4s;
+}
+
+.navclose{
+    opacity: 0;
+}

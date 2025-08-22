@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .c{
+        display: grid;
+        grid-template-columns: repeat(3,2fr);
+        gap: 5px;
+    }
+
+    img{
+        height: 6cm;
+        width: 6cm;
+        width: 100%;  
+        height: 100%;    
+    }
+
+    a:hover img{
+        opacity: 0.5;
+    }
+
+    .a{
+        max-width: 100%;
+        margin: auto;
+    }
+
+</style>
+<body>
+    <div class="c">
+        <div><img src="cat/cat1.jpg"></div>
+        <div><img src="cat/cat2.jpg"></div>
+        <div><img src="cat/cat3.jpg"></div>
+        <div><img src="cat/cat4.jpg"></div>
+        <div class="a"><img src="cat/cat5.jpg"><iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe></div>
+        <div><img src="cat/cat6.jpg"></div>
+    </div>
+</body>
+</html>

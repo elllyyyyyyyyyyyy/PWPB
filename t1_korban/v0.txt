@@ -1,0 +1,13 @@
+v0
+Membuat tier cemilan warung menggunakan table dengan tombol untuk ke table warna warni dan ada juga link untuk mendownload file dan link untuk ke halaman login
+v0.1
+tier cemilan tidak menggunakan table dan diganti menjadi deskripsi dessert 
+    7/30/2025
+seluruh isi dihapus dan gambar diubah menjadi dessert, layout gambar dirapihkan walaupun belum diatur dan layout text sudah tepat
+    8/6/2025
+mengubah table warna warni jadi page selanjutnya dari main page
+
+v0 form
+menggunakan table
+v0.1
+tidak menggunakan table dan menggunakan css
